@@ -3,13 +3,13 @@ def how_many_steps
   loop do
     steps += 1
     puts steps
-      if steps % 2==0
+      if steps % 2 == 0
         puts "left"
       else 
         puts "right" 
       end   
-    sleep(0.5)
     break
+    sleep(0.5)
   end
 end
 
