@@ -9,6 +9,6 @@ def how_many_steps
     puts "right" 
   sleep(0.5)
   break
-    end
   end
+end
   how_many_steps
