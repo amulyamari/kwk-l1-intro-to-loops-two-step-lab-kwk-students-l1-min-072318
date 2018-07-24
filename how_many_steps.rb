@@ -1,5 +1,5 @@
 def how_many_steps
-  steps=0
+  steps = 0
   loop do
     steps += 1
     puts steps
