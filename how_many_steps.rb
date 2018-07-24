@@ -7,8 +7,10 @@ def how_many_steps
     puts "left"
   else 
     puts "right" 
+  end   
   sleep(0.5)
   break
   end
 end
+
 how_many_steps
